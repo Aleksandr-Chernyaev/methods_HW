@@ -16,7 +16,7 @@ public class Main {
         defineAppVersion(0, 2024);
         defineAppVersion(1, 2013);
         defineAppVersion(5, 2018);
-        defineAppVersion(1, 2024);
+        defineAppVersion(1, 2020);
 
         // task 3
         System.out.println("Задача 3");
@@ -49,7 +49,7 @@ public class Main {
                 mobileOsName = "Неизвестная ОС";
         }
 
-        int currentYear = 2020;
+        int currentYear = 2015;
 
         if (mobileYear > currentYear) {
             System.out.println("Для ОС " + mobileOsName + " установите обычную версию приложения");
